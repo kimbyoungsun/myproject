@@ -1,0 +1,32 @@
+# 파이썬 바이트 코드
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# MySQL 설정 파일이나 덤프 파일
+*.sql
+*.sql.gz
+
+# 가상환경 폴더 (venv, env 등)
+venv/
+env/
+
+# Django의 미디어 파일
+media/
+
+# Django의 정적 파일 (이미 빌드된 파일은 제외)
+static/
+
+# 로그 파일
+*.log
+
+# 백업 파일
+*.bak
+
+# IDE/편집기 설정 파일 (예: VS Code, PyCharm 등)
+.vscode/
+.idea/
+
+# 환경 설정 파일
+*.env
