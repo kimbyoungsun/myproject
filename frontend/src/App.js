@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Button from "react-bootstrap/Button";
 
 function App() {
   const [message, setMessage] = useState("");
@@ -14,6 +16,7 @@ function App() {
     <div>
       <h1>React와 Django 연결 테스트</h1>
       <p>{message}</p>
+      <Button variant="primary">클릭하세요</Button>
     </div>
   );
 }
